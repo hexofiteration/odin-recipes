@@ -58,16 +58,19 @@ li {
 
 .flex-container {
     display: flex;
-    flex: 1;
+    gap: 20px;
+    min-height: 500px;
+    justify-content: space-evenly;
 }
 
 .ingredients {
     background-color: hsl(0, 0%, 96%);
-    flex: 1;
+    padding: 10px;
+    width: 400px;
 }
 
 .steps {
     margin-top: 40px;
     margin-left: 20px;
-    flex: 2;
+    width: 400px;
 }
