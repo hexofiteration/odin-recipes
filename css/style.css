@@ -36,7 +36,6 @@ a {
 .container {
     min-height: 700px;
     background-color: hsl(0, 0%, 100%);
-    width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -57,12 +56,18 @@ li {
     padding: 10px 0;
 }
 
+.flex-container {
+    display: flex;
+    flex: 1;
+}
 
 .ingredients {
     background-color: hsl(0, 0%, 96%);
+    flex: 1;
 }
 
 .steps {
     margin-top: 40px;
     margin-left: 20px;
+    flex: 2;
 }
